@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+ 
+    <session-factory>
+ 
+
+        <property name="connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
+        <property name="connection.url">jdbc:derby:${catalina.base}\\webapps\\Issue\\resources\\issueDB;create=false</property>
+        <property name="connection.username">admin</property>
+        <property name="connection.password">admin</property>
+        <property name="dialect">org.hibernate.dialect.DerbyDialect</property>
+        <property name="connection.pool_size">10</property>
+ 		<property name="current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+ 		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+ 		
+ 		<mapping class="org.training.issueTracker.beans.Status"/>
+      	<mapping class="org.training.issueTracker.beans.Resolution"/>
+      	<mapping class="org.training.issueTracker.beans.Priority"/>
+      	<mapping class="org.training.issueTracker.beans.Type"/>
+		<mapping class="org.training.issueTracker.beans.Project"/> 
+		<mapping class="org.training.issueTracker.beans.Employee"/>
+		<mapping class="org.training.issueTracker.beans.Build"/>
+		<mapping class="org.training.issueTracker.beans.Issue"/>
+		<mapping class="org.training.issueTracker.beans.Comment"/>
+		<mapping class="org.training.issueTracker.beans.Attachment"/>
+		
+    </session-factory>
+ 
+</hibernate-configuration>

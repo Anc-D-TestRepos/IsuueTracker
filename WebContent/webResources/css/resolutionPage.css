@@ -1,0 +1,26 @@
+.content {
+	width: 80%;
+	margin: 0 auto;
+}
+ table {
+	border: solid 1px;
+	border-spacing: 0px;
+	margin: 0 auto;
+	width: 150px;
+	margin-top: 40px ;
+}
+ table td,th {
+	border-collapse: collapse;
+	height: 25px;
+	border: solid 1px;
+}
+
+a {
+	text-decoration: none;
+}
+.userPage {
+	padding-top: 20px;
+	font-size: 20px;
+	float: left;
+	
+}

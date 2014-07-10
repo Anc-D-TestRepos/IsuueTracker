@@ -1,0 +1,41 @@
+.inputData div {
+	margin:0 0 0 40%;
+	padding: 15px;
+	
+}
+
+.inputData input {
+	
+	width: 250px;
+}
+
+
+.title {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+	
+}
+
+.button input{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 90px;
+	text-align: center;
+}
+.button {
+	margin: 0 auto;
+	width: 250px;
+
+}
+
+.back {
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.back a{
+	text-decoration: none;
+}

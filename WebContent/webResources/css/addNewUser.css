@@ -1,0 +1,99 @@
+body{
+	width: 100%;
+	
+}
+.inputData {
+	
+	margin: 0 auto;
+	width: 500px;
+}
+
+.description {
+	
+	padding:70px 0 30px 50px;
+	font-size: 17px;
+}
+span.firstDescr {
+	padding: 10px;
+}
+span.lastDescr {
+	padding: 11px;
+}
+span.emailDescr {
+	padding: 11px;
+}
+span.emailDescr {
+	padding: 11px ;
+
+}
+span.roleDescr {
+	padding: 11px ;
+
+}
+span.confirmDescr {
+	padding: 11px ;
+}
+span.newDescr {
+	padding: 11px ;
+}
+
+div.firstName {
+	padding: 10px;
+
+}
+div.lastName {
+	padding: 10px;
+	
+}
+div.newPass {
+	padding: 10px;
+
+}
+div.confirmPass{
+	padding: 10px;
+	
+}
+div.email {
+	padding: 10px ;
+	
+	
+}
+div.role {
+	padding: 10px ;
+	
+	
+}
+div.button {
+	
+	padding: 30px 0 0 100px;
+	margin:  0 auto;
+	
+}
+
+.firstName input , .lastName input , .email input , .role input {
+	width: 250px;
+}
+
+select {
+		width: 260px;
+}
+
+span.newDescr {
+	padding: 10px;
+}
+span.confirmDescr {
+	padding: 11px;
+}
+
+
+.newPass input , .confirmPass input , .email input {
+	
+	width: 250px;
+	
+}
+.userPage {
+	padding-top: 20px;
+	font-size: 20px;
+	float: left;
+	
+}

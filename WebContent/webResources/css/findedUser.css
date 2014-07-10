@@ -1,0 +1,66 @@
+
+body {
+	margin:0;
+	font-size: 20px;
+}
+p {
+	margin: 75px 0 20px 0;
+	text-align:center;
+	
+	
+}
+
+.content {
+		margin: 75px auto;
+		width : 80%;
+
+	
+}
+.content table{
+	width: 70%;
+	table-layout:fixed;
+	margin: 0 auto;
+	border: solid black 3px;
+	border-collapse: collapse;
+	}
+	
+.user {
+	margin: 0 auto;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:center;
+	
+}
+.title {
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+}
+
+.back {
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.back a{
+	text-decoration: none;
+}
+}
+.content table {	
+	border: solid 1px;
+	border-spacing: 0px;
+	width: 100%;
+	margin: 40px 0 0 0 ;
+}
+.content table td,th {
+	border-collapse: collapse;
+	height: 25px;
+	border: solid 1px;
+	text-align: center;
+	
+}
+th {
+	background-color: #FFBBFF;
+}
+
+						

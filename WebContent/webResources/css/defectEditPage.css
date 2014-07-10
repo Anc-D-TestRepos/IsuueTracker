@@ -1,0 +1,73 @@
+table td{
+	border: solid black 1px;
+}
+.inputData div {
+	margin:0 0 0 40%;
+	padding: 15px 0;
+		
+}
+.inputData input, select {
+
+	width: 250px;
+}
+.title {
+	margin:0 0 0 40%;
+	padding:  0 15px;
+	width: 250px;
+	text-align: center;
+}
+.button input{
+	margin: 0 auto;
+	width: 90px;
+}
+.button {
+	text-align: center;
+	width: 250px;
+}
+.AddFileButton {
+	text-align: center;
+	width: 250px;
+	margin: 20px auto;
+}
+.back {
+	text-align: center;
+}
+
+.addBy {
+	 
+	padding-right: 5px;
+}
+.addDate {
+	 
+	padding: 0 5px 0 20px;
+}
+.commentTab, .attachTab {
+	margin: 0 auto  ; 
+
+}
+.attachTab td, tr{
+	border: none;
+}
+.commentHeader, .attachHeader {
+	margin: 0 auto  ; 
+	width: 500px;
+}
+.commentBody, .attachBody {
+	 margin: 0 auto  ; 
+	width: 500px;
+	
+}
+.attachBody {
+	color: magenta;
+}
+.commentBody {
+	color: blue;
+}
+.attachBody input {
+	float: right;
+}
+.attachment{
+	max-width: 700px;
+	margin: 40px auto;
+	
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+		
+	</beans>
+
+<!-- <beans 	xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+		
+		
+		
+		
+		
+		
+		
+		
+		<bean id="type"
+			class="org.training.issueTracker.beans.Type">
+			
+		</bean>
+		 
+		<bean id="status"
+			class="org.training.issueTracker.beans.Status">
+			
+		</bean>
+		
+		<bean id="resolution"
+			class="org.training.issueTracker.beans.Resolution">
+			
+		</bean>
+		
+		<bean id="project"
+			class="org.training.issueTracker.beans.Project">
+			
+		</bean>
+		
+		<bean id="priotity"
+			class="org.training.issueTracker.beans.Priotity">
+			
+		</bean>
+		
+		<bean id="comment"
+			class="org.training.issueTracker.beans.Comment">
+			
+		</bean>
+		
+		<bean id="employee"
+			class="org.training.issueTracker.beans.Employee">
+			
+		</bean>
+		
+
+
+</beans> -->
